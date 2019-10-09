@@ -1,8 +1,8 @@
 <div class="header">
     <div class="row">
         <div class="col-lg-2" id="logo">
-            <a href="http://localhost/eCommerce.G4/index.php">
-                <img src="images/logo.png" alt="logo" title="Accueil">
+            <a href="http://localhost/eCommerce.G4/fil_rouge/interface/index.php">
+                <img src="../images/logo.png" alt="logo" title="Accueil">
             </a>
         </div>
 
@@ -14,8 +14,8 @@
 
                 <div class="col-lg-2">
                     <div class="row langue">
-                        <div class="col-lg-6"><a href=""><img src="images/fr.jpg" alt="Français" title="Français"></a></div>
-                        <div class="col-lg-6"><a href=""><img src="images/en.jpg" alt="Anglais" title="English"></a></div>                
+                        <div class="col-lg-6"><a href=""><img src="../images/fr.jpg" alt="Français" title="Français"></a></div>
+                        <div class="col-lg-6"><a href=""><img src="../images/en.jpg" alt="Anglais" title="English"></a></div>                
                     </div>
                 </div>
             </div>

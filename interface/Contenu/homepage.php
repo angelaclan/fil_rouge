@@ -5,36 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css">
     <title>Create Your Style</title>
 </head>
 <body>
     <div class="container">
         <?php
-            include("include/header.php");
+            include("../include/header.php");
         ?>
 
         <div class="row text-center">
             <a href="http://" target="_blank" rel="noopener noreferrer" class="col-lg-12">
                 <!-- <div> -->
-                    <img src="images/logo.xl.png" alt="galerie">
+                    <img class="galerie" src="../images/logo.xl.jpg" alt="galerie">
                 <!-- </div> -->
             </a>
         </div>
 
-        <div class="suivez_nous">
+        <div class="card suivez_nous">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Suivez-nous</h2>
+                <div class="card-title col-lg-12 text-center">
+                    <h2>SUIVEZ-NOUS</h2>
                 </div>
             </div>
             
             <div>
-                <div class="row offset-lg-4 col-lg-4 icones">
-                    <div class="col-lg-3 text-center"><a href="http://" target="_blank"><div class="icone">f</div></a></div>
-                    <div class="col-lg-3 text-center"><a href="http://" target="_blank"><div class="icone">p</div></a></div>
-                    <div class="col-lg-3 text-center"><a href="http://" target="_blank"><div class="icone">ig</div></a></div>
-                    <div class="col-lg-3 text-center"><a href="http://" target="_blank"><div class="icone">G+</div></a></div>
+                <div class="row  icones">
+                    <div class="col-lg-2 text-center"><a href="http://" target="_blank"><div class="icone">Facebook</div></a></div>
+                    <div class="col-lg-2 text-center"><a href="http://" target="_blank"><div class="icone">Pinterest</div></a></div>
+                    <div class="col-lg-2 text-center"><a href="http://" target="_blank"><div class="icone">Instagram</div></a></div>
+                    <div class="col-lg-2 text-center"><a href="http://" target="_blank"><div class="icone">Google+</div></a></div>
                 </div>                
             </div>
         </div>
@@ -44,26 +44,26 @@
         <div class="row nos_produits">
             <div class="col-lg-3">
                 <small class="titre_nos_produits">HOMMES</small>
-                <div><img width="250px" src="images/logo.xl.png" alt=""></div>
+                <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="card-img" width="250px" src="../images/habitHomme.jpg" alt=""></a></div>
             </div>
 
             <div class="col-lg-3">
                 <small class="titre_nos_produits">FEMMES</small>
-                <div><img width="250px" src="images/logo.xl.png" alt=""></div>
+                <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="card-img" width="250px" src="../images/habitFemme.jpg" alt=""></a></div>
             </div>
 
             <div class="col-lg-3">
                 <small class="titre_nos_produits">ENFANTS</small>
-                <div><img width="250px" src="images/logo.xl.png" alt=""></div>
+                <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="card-img" width="250px" src="../images/habitEnfant.jpg" alt=""></a></div>
             </div>
 
             <div class="col-lg-3">
-                <small class="titre_nos_produits">PACK FAMILLE</small>
-                <div><img width="250px" src="images/logo.xl.png" alt=""></div>
+                <small class="titre_nos_produits">PACK</small>
+                <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="card-img" width="250px" src="../images/habitFamille.jpg" alt=""></a></div>
             </div>
         </div>
 
-        <div class="newsletter">
+        <div class="card newsletter">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Inscrivez-vous à notre newsletter</h2>
@@ -77,7 +77,7 @@
         
 
         <?php
-            // include("pages/footer.php");
+            include("../include/footer.php");
         ?>
     </div>
 </body>
