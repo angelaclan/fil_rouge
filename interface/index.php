@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="index.css" href="index.js" type="text/css">
     
 </head>
 
@@ -73,7 +73,65 @@
         </div>
     </div>
 
-
+<!--
+    <div class="container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/habitHomme.jpg">
+                    <h3>HOMMES</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>HOMMES</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/habitFemme.jpg">
+                    <h3>FEMMES</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>FEMMES</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/habitEnfant.jpg">
+                    <h3>ENFANTS</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>ENFANTS</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="images/habitFamille.jpg">
+                    <h3>PACK</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>PACK</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
 
 
     <div class="card-deck">
@@ -103,7 +161,6 @@
         </div>
 
     </div>
-
 
 
 
