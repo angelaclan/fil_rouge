@@ -16,9 +16,7 @@
 
         <div class="row text-center">
             <a href="http://" target="_blank" rel="noopener noreferrer" class="col-lg-12">
-                <!-- <div> -->
                     <img class="galerie" src="../images/logo.xl.jpg" alt="galerie">
-                <!-- </div> -->
             </a>
         </div>
 
