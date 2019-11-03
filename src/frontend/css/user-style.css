@@ -1,0 +1,10 @@
+#signuptitle h1 {
+    display: flex;
+    margin-left: 4em;
+    
+}
+
+#button {
+    margin: 15px;
+
+}
