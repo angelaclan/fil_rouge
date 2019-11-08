@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="../include/footer.css" type="text/css">
     <title>Create Your Style</title>
 </head>
 <body>
@@ -72,10 +73,9 @@
                 <input class="je_m_inscris" type="button" value="Je m'inscris">                
             </div>
         </div>
-        
 
         <?php
-            include('../include/footer.html');
+            include(__DIR__.'\..\include\footer.html');
         ?>
     </div>
 </body>
