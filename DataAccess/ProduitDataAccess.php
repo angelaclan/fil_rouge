@@ -67,24 +67,6 @@
             $myDb -> close();
         }
 
-        // // AJOUT d'un produit
-        // public function ajouterProduit($id_produit='', $nom_produit='', $description_article='', $prix_vente='')
-        // {
-        //     $myDb = $this->connection();
-
-        // //     $resultSet = $this->executerQuery($myDb,"INSERT INTO produit (id_produit, nom_produit, description_article, prix_vente)
-        // //                                             VALUES ($id_produit, '$nom_produit', '$description_article', $prix_vente)");
-        // //    $this->fetchResults($resultSet);
-
-        //    $requete = "INSERT INTO produit (id_produit=?,nom_produit=?,description_article=?,prix_vente=?)
-        //                 VALUES (?,?,?,?)";
-        // //    var_dump($requete);
-        // $statement = $myDb -> prepare($requete);
-        // $statement -> bind_param("issi", $id_produit, $nom_produit, $description_article, $prix_vente);
-        // $statement -> execute();
-        // $myDb -> close();
-        // }
-
         public function deleteProduit()
         {
             $myDb = $this->connection();
@@ -104,37 +86,6 @@
 
             $myDb -> close();
         }
-
-        // public function notification(){
-        //     $myDb = $this->connection();
-
-        //     $notif="SELECT count(*) as notifications FROM `produit` WHERE Date=?";
-
-        //     $stmt=$myDb->prepare($notif);
-
-        //     $newDate=date('Y-m-d');
-
-        //     $stmt->bind_param("s", $newDate);
-
-        //     $stmt->execute();
-
-        //     $resultSet = $stmt->get_result();
-        //     $data = $resultSet->fetch_array(MYSQLI_ASSOC);
-
-        //     var_dump($data);
-
-        //     foreach($data as $compt)
-        //     {
-        //         $i = $compt;           
-        //     }
-        //     return $i;
-            
-        //     $compteur = new ProduitDataAccess();
-        //     $i = $compteur->notification();
-
-        //     $resultSet->free();
-        //     $myDb=close();
-        // }
     }
 
 ?>

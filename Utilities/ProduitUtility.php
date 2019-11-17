@@ -23,9 +23,4 @@
             return $tableau;
         }
     }        
-    
-    // include_once('ProduitDataAccess.php');
-    // $compteur = new ProduitDataAccess();
 ?>
-<!-- <img src="32bell.png">
-<div style="padding-bottom: 30px; "><a href="#" class="badge badge-danger"><?php // echo $i ?></a></div> -->

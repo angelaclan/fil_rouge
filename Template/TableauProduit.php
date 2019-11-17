@@ -21,7 +21,6 @@
                 include_once(__DIR__.'/../Classes/Produit.php');                
                 include_once(__DIR__.'\..\DataAccess/ProduitDataAccess.php');
                 $produitDataAccess = new ProduitDataAccess();
-                var_dump($produitDataAccess);
             
                 // TRAITEMENT UPDATE ET INSERT
 
@@ -32,18 +31,14 @@
                     switch ($action) {
                         case 'insert':
                             if (
-                                // !empty($_POST['id_produit'])
-                                // && 
                                 !empty($_POST['nom_produit'])
-                                // && !empty($_POST['id_produit'])
-                                // && !empty($_POST['nom_produit'])
                                 && !empty($_POST['description_article'])
                                 && !empty($_POST['taille_article'])
                                 && !empty($_POST['genre_article'])
                                 && !empty($_POST['prix_vente'])
                                 && !empty($_POST['prix_d_achat'])) {
                                
-                                // $id_produit = $_POST['id_produit'];
+                                
                                 $nom_produit = $_POST['nom_produit'];
                                 $description_article = $_POST['description_article'];
                                 $taille_article = $_POST['taille_article'];
@@ -101,14 +96,6 @@
                     echo "</tr>";
 
                     $data = $produitDataAccess -> rechercherTousLesProduits();
-                    var_dump($data);
-                    
-                    // $produitDataAccess1 = new ProduitDataAccess();
-                    // $data1 = $produitDataAccess1 -> trouverProduitParNumero($id_produit);
-                    // var_dump($data1);
-
-                    // $compteur = new ProduitDataAccess();
-                    // $i = $compteur->notification();
 
                     foreach($data as $objetProduit){
                         echo "<tr>";                  
@@ -125,21 +112,7 @@
                         echo "</tr>";
                     }                    
                 echo "</table>";
-            ?>
-
-            <div class="container">
-                <div class="notification-bell">
-                    <div class="notification-bell__icon">
-                        <img src="\..\Images\bell48.png"> 
-                    </div>
-
-                    <div class="notification-bell__badge">
-                        <div class="notification-bell__counter">
-                            <!-- <?php echo $i ?> -->
-                        </div>
-                    </div> 
-                </div>
-            </div>            
+            ?>            
         </div>
     </div>    
 </body>
